@@ -1,4 +1,3 @@
-(function (exports, require, module, __filename, __dirname) {
 
 var url='https://www.unicode.com';
 
@@ -8,5 +7,3 @@ function log(message){
 }
 
 module.exports.log = log;
-
-})
