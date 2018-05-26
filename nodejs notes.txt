@@ -1,0 +1,31 @@
+Node JS
+-------
+Node is a runtime environment. It is not a programming language or a framework or a library.
+It is used to run javascript programs.
+Generally javascript is run on a browser. Each browser a have a different javascript engine to convert the JS language to machine language. like chrome have v8.
+node is built on v8 of chrome.
+node have different objects apart from document, window, etc
+
+console is a global object.
+setTimeout()-used to call a function after some time. this can be used inside client/browser.
+
+these objects are under global object
+
+node file name is used to run the JS (node app.js)
+
+To make an object public assign it to module.exports.<variable name>
+
+require()--used to include/load another module
+to declare a variable as final/constant, can use const in place of var. This restricts from overriding a value accidentally
+
+Modular wrapper function--(function (exports, require, module, __filename, __dirname) {
+
+})
+
+by default our js gets wrapped inside a function
+
+we can get information  about network, files, operating system etc which is nto possible with JS
+
+http is used to create a server and listen to the events and post the response to the browser.
+In real time we dont create a server but can use express framework to run js in nodejs.
+can see the documentation for nodejs on its site
