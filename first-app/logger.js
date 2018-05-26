@@ -1,4 +1,3 @@
-
 var url='https://www.unicode.com';
 
 function log(message){
